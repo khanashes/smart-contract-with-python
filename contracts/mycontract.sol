@@ -38,7 +38,7 @@ contract MyContract {
     
     function dispnse(address payable _owner)  onlyCreater instate(State.start) payable public{
         owner = _owner;
-        unlockDate = now + 30 seconds;
+        unlockDate = now + 30 days;
         state = State.in_progress;
         
     }
